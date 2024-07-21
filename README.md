@@ -70,4 +70,4 @@ This PowerShell script is designed to apply/patch 1337 files directly into a .dl
 
 ## Credits
 
-This script is based on the work by [Deltafox79](https://github.com/Deltafox79/Win_1337_Apply_Patch) with additional modifications as per [@VorlonCD's](https://github.com/VorlonCD) instructions.
+This script is based on the work by [Deltafox79](https://github.com/Deltafox79/Win_1337_Apply_Patch) with additional modifications as per [@VorlonCD's](https://github.com/VorlonCD) [instructions](https://github.com/keylase/nvidia-patch/issues/795#issuecomment-2225573296).
