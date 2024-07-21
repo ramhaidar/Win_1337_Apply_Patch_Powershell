@@ -1,4 +1,4 @@
-# Win_1337_Apply_Patch
+# Win_1337_Apply_Patch_Powershell
 
 ## Description
 
@@ -19,7 +19,7 @@ This PowerShell script is designed to apply/patch 1337 files directly into a .dl
 
 - PowerShell 5.1 or higher.
 - Administrative privileges to run the script.
-- Patch files (Recommended to be in the same directory as the script) can be downloaded from nvidia-patch repository [here](https://github.com/keylase/nvidia-patch/tree/master/win).
+- Patch files (Recommended to be in the same directory as the script) can be downloaded from nvidia-patch repository [here](https://github.com/keylase/nvidia-patch/tree/master/win) based on your driver version.
 
 ### Parameters
 
