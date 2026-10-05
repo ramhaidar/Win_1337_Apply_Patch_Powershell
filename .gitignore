@@ -1,2 +1,17 @@
+# Real NVIDIA patch files must not be committed
 nvencodeapi64.1337
 nvencodeapi.1337
+
+# Generated patch backups
+*.BAK
+*.backup
+
+# Build / publish / test output
+bin/
+obj/
+artifacts/
+publish/
+TestResults/
+*.trx
+coverage*.xml
+
