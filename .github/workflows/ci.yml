@@ -1,0 +1,29 @@
+name: ci
+
+on:
+  push:
+    branches: ['**']
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  verify:
+    name: Lint, type-check and test
+    runs-on: windows-2025
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Show PowerShell version
+        shell: pwsh
+        run: $PSVersionTable.PSVersion.ToString()
+
+      - name: Install developer dependencies
+        shell: pwsh
+        run: ./scripts/Install-DevDependencies.ps1
+
+      - name: Run quality gate
+        shell: pwsh
+        run: ./scripts/Verify-Build.ps1
